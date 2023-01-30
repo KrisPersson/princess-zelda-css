@@ -1,0 +1,55 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pz-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    width: 16rem;
+    height: fit-content;
+}
+
+.pz-container article {
+    width: 1rem;
+    height: 1rem;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.black {
+    background: rgb(40,40,40);
+}
+
+.white {
+    background: rgb(253,247,254);
+}
+
+.blue {
+    background: rgb(101,113,250);
+}
+
+.purple {
+    background: rgb(198,165,244);
+}
+
+.dark-skin {
+    background: rgb(174,98,35);
+}
+
+.light-skin {
+    background: rgb(240,175,106);
+}
+
+.red {
+    background: rgb(255,95,88);
+}
